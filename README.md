@@ -6,6 +6,8 @@
   sudo -i
   </br>
   apt-get install mailutils
+  </br>
+  We need the command "mail" in the package "mailutils"
   </br></br>
   Download this shell script
   </br>
