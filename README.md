@@ -1,1 +1,1 @@
-install the package "mailutils"
+sudo apt-get install mailutils
