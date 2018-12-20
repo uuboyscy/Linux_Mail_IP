@@ -36,4 +36,4 @@ you will get the IP from raspberry as shown in the photo below
 Then enjoy your connection!
 </br>
 </br>
-<img src="/IMG_0377.png" width="28%" height="28%">
+<img src="/IMG_0377.png" width="50%" height="50%">
