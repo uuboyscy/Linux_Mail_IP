@@ -15,6 +15,8 @@ sleep 3s
 fi
 done
 
+sleep 3s
+
 # get the IP address of eth0 and wlan0
 #rm /home/pi/Desktop/ipTmp
 echo "==============================" > /home/pi/Desktop/ipTmp
