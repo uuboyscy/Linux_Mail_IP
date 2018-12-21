@@ -76,3 +76,11 @@ Then enjoy your connection!</b>
 </br>
 </br>
 <img src="/IMG_0377.png" width="50%" height="50%">
+</br></br></br>
+<b>Additionally, you can download this script</br>
+it will running in background and keep checking whether the network is available</br>
+<a href="https://github.com/uuboyscy/LinuxShellScript/blob/master/Radpbian/checkNetworkAvailable.sh">checkNetworkAvailable.sh</a></br>
+Put it in anywhere you like(maybe in home of root)
+</b>
+</br>
+echo "cd ~;./checkNetworkAvailable.sh" >> /etc/profile;source /etc/profile
