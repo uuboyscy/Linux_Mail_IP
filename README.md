@@ -14,34 +14,31 @@
   cp /etc/ssmtp/ssmtp.conf /etc/ssmtp/ssmtp.conf.bak
   </br>
   vi /etc/ssmtp/ssmtp.conf
-  <table border='1'>
-	<tr>
-		
-			# 接收系統郵件的 Email</br>
-			root=<i>yourEmailAddress</i>@gmail.com</br></br>
+  
+  <table border='1'>		
+		# 接收系統郵件的 Email</br>
+		root=<i>yourEmailAddress</i>@gmail.com</br></br>
+		# 使用 GMail 的 MTA 送信</br>
+		mailhub=smtp.gmail.com:587</br></br>
 
-			# 使用 GMail 的 MTA 送信</br>
-			mailhub=smtp.gmail.com:587</br></br>
+		# 設定 hostname</br>
+		hostname=<i>raspberrypi</i></br></br>
 
-			# 設定 hostname</br>
-			hostname=<i>raspberrypi</i></br></br>
+		# 允許使用者設定 Email 的 From 欄位</br>
+		FromLineOverride=YES</br></br>
 
-			# 允許使用者設定 Email 的 From 欄位</br>
-			FromLineOverride=YES</br></br>
+		# Google 帳號與密碼</br>
+		AuthUser=<i>yourEmailAddress</i>@gmail.com</br>
+		AuthPass=<i>yourPassWord</i></br></br>
 
-			# Google 帳號與密碼</br>
-			AuthUser=<i>yourEmailAddress</i>@gmail.com</br>
-			AuthPass=<i>yourPassWord</i></br></br>
+		# 啟用安全加密連線</br>
+		UseSTARTTLS=YES</br>
+		UseTLS=YES</br></br>
 
-			# 啟用安全加密連線</br>
-			UseSTARTTLS=YES</br>
-			UseTLS=YES</br></br>
-
-			# 輸出除錯資訊</br>
-			Debug=YES
-		
-	</tr>
+		# 輸出除錯資訊</br>
+		Debug=YES	
   </table>
+  
   </br></br>
   <b>3.Test if you can receive the email.</b>
   </br>
