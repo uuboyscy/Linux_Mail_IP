@@ -17,26 +17,26 @@
   
   <table border='1'>		
 		
-		# 接收系統郵件的 Email</br>
-		root=<i>yourEmailAddress</i>@gmail.com</br></br>
-		# 使用 GMail 的 MTA 送信</br>
-		mailhub=smtp.gmail.com:587</br></br>
+		# 接收系統郵件的 Email
+		root=yourEmailAddress@gmail.com
+		# 使用 GMail 的 MTA 送信
+		mailhub=smtp.gmail.com:587
 
-		# 設定 hostname</br>
-		hostname=<i>raspberrypi</i></br></br>
+		# 設定 hostname
+		hostname=raspberrypi
 
-		# 允許使用者設定 Email 的 From 欄位</br>
-		FromLineOverride=YES</br></br>
+		# 允許使用者設定 Email 的 From 欄位
+		FromLineOverride=YES
 
-		# Google 帳號與密碼</br>
-		AuthUser=<i>yourEmailAddress</i>@gmail.com</br>
-		AuthPass=<i>yourPassWord</i></br></br>
+		# Google 帳號與密碼
+		AuthUser=yourEmailAddress@gmail.com
+		AuthPass=yourPassWord
 
-		# 啟用安全加密連線</br>
-		UseSTARTTLS=YES</br>
-		UseTLS=YES</br></br>
+		# 啟用安全加密連線
+		UseSTARTTLS=YES
+		UseTLS=YES
 
-		# 輸出除錯資訊</br>
+		# 輸出除錯資訊
 		Debug=YES	
 		
   </table>
