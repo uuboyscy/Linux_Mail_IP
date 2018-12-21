@@ -16,6 +16,7 @@
   vi /etc/ssmtp/ssmtp.conf
   
   <table border='1'>		
+		
 		# 接收系統郵件的 Email</br>
 		root=<i>yourEmailAddress</i>@gmail.com</br></br>
 		# 使用 GMail 的 MTA 送信</br>
@@ -37,6 +38,7 @@
 
 		# 輸出除錯資訊</br>
 		Debug=YES	
+		
   </table>
   
   </br></br>
