@@ -16,7 +16,7 @@
   vi /etc/ssmtp/ssmtp.conf
   <table border='1'>
 	<tr>
-		<td>
+		
 			# 接收系統郵件的 Email</br>
 			root=<i>yourEmailAddress</i>@gmail.com</br></br>
 
@@ -39,7 +39,7 @@
 
 			# 輸出除錯資訊</br>
 			Debug=YES
-		</td>
+		
 	</tr>
   </table>
   </br></br>
