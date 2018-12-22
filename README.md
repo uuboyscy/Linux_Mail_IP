@@ -83,4 +83,4 @@ it will running in background and keep checking whether the network is available
 Put it in anywhere you like(maybe in home of root)
 </b>
 </br>
-echo "cd ~;./checkNetworkAvailable.sh" >> /etc/profile;source /etc/profile
+echo "cd ~;./checkNetworkAvailable.sh &" >> /etc/profile;source /etc/profile
